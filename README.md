@@ -5,9 +5,16 @@
 
 ## Starting Out
 ### Variables
+There are a couple different ways in Go to create variables. We can go the explicit route of creating a variable e.g.
 
+```go
+var meaningOfLife int
+```
 ### Data Types
 #### Integers
+An integer is a counting number - like 1,2,3,100, and even 0 and negative numbers -1, -42 etc.
+
+Integers are declared without quotes
 #### Floating Point
 #### Strings
 
@@ -26,7 +33,8 @@
 ### Channels
 
 ## I Am A Code God
-
+### Packaging
+### Kits
 
 # Topics
 ## Command Line Apps
