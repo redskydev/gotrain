@@ -112,6 +112,10 @@ Integers are declared without quotes
 #### Creation
 #### Methods
 
+### Gofmt
+
+### Go Get
+
 ## Doing More
 ### Go Routines
 ### Channels
