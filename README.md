@@ -5,16 +5,23 @@
 
 ## Starting Out
 ### Get Go
-Go to 
+Go to [https://golang.org/](https://golang.org/) and follow the directions to set it up on your system. 
+If the documentation isn't clear to you (I still think it relies on a bit of insider know-how) hit us up on Github and we'll look into making our own documentation.
+
 ### Editors
 * VimGo
 * Gogland
 * Whatever
 
 ### WTF is a workspace?
-Yeah so if you're coming from a web programming background this idea of workspaces, GOROOT, etc may leave in a bit of a WTFM8 moment. No worries, we'll get you there.
+Yeah so if you're coming from a web programming background this idea of workspaces, GOROOT, etc may leave in a bit of a WTFM8 moment. 
+No worries, we'll get you there.
 
 ### Hello, Space
+If you followed the directions after downloading and installing Go, you may have already done a Hello, World program. 
+
+Whatever. This one is way better.
+
 Create a file called main.go (say it out loud, it sounds like mango mmmmm), put this deliciousness and then do _go run main.go_
 ```go
 package main
