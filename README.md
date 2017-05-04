@@ -33,7 +33,24 @@ go run main.go
 In space no one can hear hellooooooo!
 ```
 Sooo what's going on here? We'll go line-by-line and briefly cover the topics and link to further details about the topics.
+* _package main_ tells Go that this is the main package. Most programs will need this. For now, assume you need this but later on we'll discuss when to use it or now in the [Packages](#) Section.
+* _import "fmt"_ says that we're going to use something from the _fmt_ package. I pronounce it _fumt_ but think of it as _format_ because it is.
+* _func main(){_ ok so this is the main function and it's a special function. For now we're going to write everything in the main function but if you want to learn more, jump ahead to the [Functions](#) Section.
+* _fmt.Println("In space no one can hear hellooooooo!")_ This is the goods of the program, the meat (or veggie alternative). 
+We're saying, hey, we're going to use _Println_ from the _fmt_ package and print whatever we have in quotes. In our case it's the _string_ "In space no one can hear hellooooooo!"
+* _}_ we're just closing out the main() function here. All functions need to have a beginning and ending curly brace.
 
+Pretty much from now on we're going to document our code using quotes and a lot of the tutorial will come from reading the comments and then looking at the code.
+The reasoning for this is two-fold: 1) because code should be documented and you should get used to reading comments (and writing them, Phu >:( ) and 2) because I don't feel like writing separate paragraphs and it's my party.
+
+### Comments
+A comment is a human readable, machine/language-ignored bit of text in a source file that gives ourselves and other developers a heads up of what is going on. 
+Some people are in the school of thought that code should be self-documenting and that comments are fluff and a sign of _code smell_ but I believe in documenting/commenting just about everything because it doesn't hurt anything and GET OFF MY LAWN.
+
+Comments start with two forward-slashes _//_ and my convention is that I typically add a space after the start of the comment because I think it looks prettier.
+ Anything after the _//_ will be ignored by the compiler and if you're using an IDE you'll typically see it as greyed-out text. If you put any code after this on the same line, it will be ignored.
+ You'll see lots of lazy clean-up of programs _commenting out_ old code just in case they need it again. Don't do this (do as I say not as I do). You'll do this.
+ 
 ### Variables
 There are a couple different ways in Go to create variables. 
 We can go the explicit route of creating a variable where we then assign a value later (this is useful at the top of functions to give the user an idea of what may be coming up)
