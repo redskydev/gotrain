@@ -4,6 +4,36 @@
 # Level
 
 ## Starting Out
+### Get Go
+Go to 
+### Editors
+* VimGo
+* Gogland
+* Whatever
+
+### WTF is a workspace?
+Yeah so if you're coming from a web programming background this idea of workspaces, GOROOT, etc may leave in a bit of a WTFM8 moment. No worries, we'll get you there.
+
+### Hello, Space
+Create a file called main.go (say it out loud, it sounds like mango mmmmm), put this deliciousness and then do _go run main.go_
+```go
+package main
+
+import "fmt"
+
+func main(){
+	fmt.Println("In space no one can hear hellooooooo!")
+}
+```
+
+```
+# In the directory where main.go is, run this
+go run main.go
+# You should see output like this:
+In space no one can hear hellooooooo!
+```
+Sooo what's going on here? We'll go line-by-line and briefly cover the topics and link to further details about the topics.
+
 ### Variables
 There are a couple different ways in Go to create variables. 
 We can go the explicit route of creating a variable where we then assign a value later (this is useful at the top of functions to give the user an idea of what may be coming up)
