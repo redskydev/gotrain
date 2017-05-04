@@ -1,6 +1,6 @@
 # Go Training Overview
 
-
+[Training](/training/index.md)
 # Level
 
 ## Starting Out
