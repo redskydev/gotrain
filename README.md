@@ -40,7 +40,7 @@ Sooo what's going on here? We'll go line-by-line and briefly cover the topics an
 We're saying, hey, we're going to use _Println_ from the _fmt_ package and print whatever we have in quotes. In our case it's the _string_ "In space no one can hear hellooooooo!"
 * _}_ we're just closing out the main() function here. All functions need to have a beginning and ending curly brace.
 
-Pretty much from now on we're going to document our code using quotes and a lot of the tutorial will come from reading the comments and then looking at the code.
+Pretty much from now on we're going to document our code using comments and a lot of the tutorial will come from reading the comments and then looking at the code.
 The reasoning for this is two-fold: 1) because code should be documented and you should get used to reading comments (and writing them, Phu >:( ) and 2) because I don't feel like writing separate paragraphs and it's my party.
 
 ### Comments
@@ -57,16 +57,35 @@ We can go the explicit route of creating a variable where we then assign a value
 We can default assign a value at declaration time (variable initialization), or
 We can use short declaration so we don't have to type out the data type. To do this we use the _:=_ operator.
 
+The following example can be found in training/examples/variables_01.go
 ```go
-// Basic Variable Declaration
-var meaningOfLife int
-meaningOfLife = 42
+package main
 
-// Variable initialization
-var testScore = 98
+import "fmt"
 
-// Short Declaration
-daysUntilGophercon := 67
+func main(){
+	// Basic Variable Declaration
+	//  First, declaring the type
+	var meaningOfLife int
+	//  And then setting a value
+	meaningOfLife = 42
+
+	// Variable initialization
+	//  Here we're initializing the value from the get-go
+	var testScore = 98
+
+	// Short Declaration
+	//  And here we're skipping the var keyword and using the short delcartion syntax which is a colon and equals
+	daysUntilGophercon := 67
+
+	// Let's take a look at what is stored in the variables
+	//  In our Hello, Space example we just printed out a string. Now we're adding variables into the mix
+	//  We can simply do this with the Println function by adding a comma then the variable we want displayed.
+	//  Snazzy.
+	fmt.Println("Meaning of life:", meaningOfLife)
+	fmt.Println("Test Score:", testScore)
+	fmt.Println("Days until Gophercon:", daysUntilGophercon)
+}
 ```
 ### Data Types
 #### Integers
