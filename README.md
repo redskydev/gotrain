@@ -126,11 +126,14 @@ Integers are declared without quotes
 #### Creation
 #### Methods
 
-### Gofmt
 
-### Go Get
 
 ## Doing More
+### Gofmt
+### Go Get
+### JSON
+### Reading Files
+### Writing to Files
 ### Go Routines
 ### Channels
 
