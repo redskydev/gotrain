@@ -38,18 +38,6 @@ They're overly-commented in order to give whoever is looking at the code for the
 We may do versions that are less-commented too in case you find it annoying.
 
 
-### Data Types
-#### Integers
-An integer is a counting number - like 1,2,3,100, and even 0 and negative numbers -1, -42 etc.
-
-Integers are declared without quotes
-#### Floating Point
-#### Strings
-
-### Arrays
-
-### Slices
-
 ### Functions
 
 ### Imports
