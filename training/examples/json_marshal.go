@@ -1,5 +1,12 @@
+// This program shows how to Marshal (encode) a struct into json.
+
+// Always gotta set a package name. For most of these tutorials we'll use main and for many small applications it's all
+//  you'll need!
 package main
 
+// These are the extras that we need in our program that aren't out-of-the-box items.
+// We're using encoding/json so we can, um, encode the json
+// We're using fmt so we can print things to the screen
 import (
 	"encoding/json"
 	"fmt"
