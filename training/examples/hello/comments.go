@@ -1,4 +1,19 @@
-// This is the typical Hello, World program but in spaaaaceeeee.
+// This program shows how to use comments.
+// If you did the main.go (Hello World) you'll have already seen all this plain english.
+//   Comments are intended to give clarity to humans who are reading the program so it's a lot less daunting to learn
+//   about what is going on.
+
+// Comments can start with two forward-slashes and anything else after those slashes on the line will not be interpreted
+//   as code. e.g. fmt.Println("Cannot print from comments") will not be output
+
+/* Comments can also start with a forward-slash and an asterisk. These types of comments must end with an asterisk then
+     the forward slash. This allows us to write
+     multi-line
+     comments
+     without needing to do the double forward slash. Anything between the beginning na end is considered a comment.
+
+   These types of comments are generally for longer documentation.
+*/
 
 // Always gotta set a package name. For most of these tutorials we'll use main and for many small applications it's all
 //  you'll need!
