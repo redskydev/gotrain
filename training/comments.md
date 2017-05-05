@@ -22,7 +22,7 @@ Comments start with two forward-slashes _//_ and my convention is that I typical
    These types of comments are generally for longer documentation.
 */
 
-fmt.Prinln("Something I want printed out") //Comments can also go at the end of a bit of code on the same line.
+fmt.Println("Something I want printed out") //Comments can also go at the end of a bit of code on the same line.
 ```
 
  

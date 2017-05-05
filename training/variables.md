@@ -1,8 +1,10 @@
 ### Variables
 There are a couple different ways in Go to create variables. 
-We can go the explicit route of creating a variable where we then assign a value later (this is useful at the top of functions to give the user an idea of what may be coming up)
-We can default assign a value at declaration time (variable initialization), or
-We can use short declaration so we don't have to type out the data type. To do this we use the _:=_ operator.
+* We can go the explicit route of creating a variable where we then assign a value later (this is useful at the top of functions to give the user an idea of what may be coming up)
+
+* We can default assign a value at declaration time (variable initialization), or
+
+* We can use short declaration so we don't have to type out the data type. To do this we use the _:=_ operator.
 
 The following example can be found in training/examples/variables_01.go
 ```go
