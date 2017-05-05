@@ -122,6 +122,10 @@ Integers are declared without quotes
 
 ### Functions
 
+### Imports
+
+### Errors
+
 ### Structs
 #### Creation
 #### Methods
