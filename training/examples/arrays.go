@@ -8,5 +8,6 @@ func main(){
 	names[1] = "Christopher"
 	names[2] = "Jackson"
 
+	fmt.Println(names[0])
 	fmt.Println(names)
 }
