@@ -1,5 +1,5 @@
 # Go Training Overview
-Why would I use Go? Maybe because you wer told to but more likely you're one of the cool kids and love awesome Gopher stickers.
+Why would I use Go? Maybe because you were told to but more likely you're one of the cool kids and love awesome Gopher stickers.
 No shame in that game. 
 
 It's very possible you're coming into this from Ruby/Rails, PHP, or a JS background and you wanna know what all the fuss is about.
