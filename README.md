@@ -14,24 +14,21 @@ Damn the man, save the empire.
 ## Why shouldn't I just use site.abc or site.xyz
 You should. No one source will ever suffice. Theirs is probably better than ours.
 
-[Training](/training/index.md)
-# Level
-
-## Starting Out
-### Get Go
+# Starting Out
+## Get Go
 Go to [https://golang.org/](https://golang.org/) and follow the directions to set it up on your system. 
 If the documentation isn't clear to you (I still think it relies on a bit of insider know-how) hit us up on Github and we'll look into making our own documentation.
 
-### Editors
+## Editors
 * VimGo
 * Gogland
 * Whatever
 
-### WTF is a workspace?
+## WTF is a workspace?
 Yeah so if you're coming from a web programming background this idea of workspaces, GOROOT, etc may leave in a bit of a WTFM8 moment. 
 No worries, we'll get you there.
 
-## Going From Here
+# Going From Here
 Check out our tutorials. We're trying to cover everything we can think of an are assuming zero knowledge of any programming or programming concepts and will cover them as in depth as we can.
 
 Head over to the [Training Section](/training/index.md) to get started. If you already know some topics, skip 'em or come back if you need clarigication.
