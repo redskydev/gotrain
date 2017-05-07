@@ -1,5 +1,5 @@
 ### Variables
-There are a couple different ways in Go to create variables. 
+There are a few different ways in Go to create variables. 
 * We can go the explicit route of creating a variable where we then assign a value later (this is useful at the top of functions to give the user an idea of what may be coming up)
 
 * We can default assign a value at declaration time (variable initialization), or
